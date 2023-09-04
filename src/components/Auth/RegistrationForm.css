@@ -1,0 +1,99 @@
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.registration-form .form-group {
+    margin-bottom: 15px;
+}
+
+.registration-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="date"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.registration-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.registration-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.registration-form p {
+    text-align: center;
+}
+
+.registration-form p a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.registration-form p a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.date-input {
+    border: 1px solid #ccc;
+  
+    border-radius: 4px;
+ 
+    padding: 10px;
+   
+    font-size: 16px;
+  
+    outline: none;
+   
+}
+
+
+.date-input:focus {
+    border-color: #007bff;
+  
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+
+}
+
+
+.hint {
+    font-size: 14px;
+    color: #888;
+}
+
+
+.error {
+    color: #ff0000;
+    font-size: 14px;
+}
